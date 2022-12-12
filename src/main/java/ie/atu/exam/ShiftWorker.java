@@ -40,5 +40,8 @@ public class ShiftWorker extends Employee{
         this.hourlyRate = hourlyRate;
     }
 
-
+    public void getReportDetails() {
+        System.out.println("Employee's name: " + getName() + ", Payroll Number: " + getPayrollNumber() +
+                ", Shift Number: " + getShift() + ", Hourly Pay Rate: " + getHourlyRate());
+    }
 }
