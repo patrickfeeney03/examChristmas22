@@ -33,7 +33,7 @@ public class Employee {
 
     // This is the getReportDetails method that displays the employee's name and the employee's id number.
     public void getReportDetails() {
-        System.out.printf("Employee's name: " + getName() + "Employee's " + getIdNumber());
+        System.out.println("Employee's name: " + getName() + ", Employee's Id Number: " + getIdNumber());
     }
 }
 
