@@ -4,7 +4,7 @@ public class EmployeeApp {
     public static void main(String[] args) {
         // Creating the objects from the classes that I made.
         Employee employee1 = new Employee("name1", "id1");
-        ShiftWorker shiftworker1 = new ShiftWorker("name2", "id2", 1,
+        ShiftWorker shiftWorker1 = new ShiftWorker("name2", "id2", 1,
                 564, 54.66);
         ShiftSupervisor supervisor1 = new ShiftSupervisor(); // Empty constructor
 
@@ -18,7 +18,7 @@ public class EmployeeApp {
 
         // Printing the 3 objects
         employee1.getReportDetails();
-        shiftworker1.getReportDetails();
+        shiftWorker1.getReportDetails();
         supervisor1.getReportDetails();
     }
 }
