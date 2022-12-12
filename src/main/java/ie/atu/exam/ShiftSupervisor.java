@@ -20,5 +20,8 @@ public class ShiftSupervisor extends  ShiftWorker{
         this.annualSalary = annualSalary;
     }
 
-
+    public void getReportDetails() {
+        System.out.println("Employee's name: " + getName() + ", Payroll Number: " +
+                getPayrollNumber() + ", Shift Number: " + getShift() + ", Annual Salary: " + getAnnualSalary());
+    }
 }
