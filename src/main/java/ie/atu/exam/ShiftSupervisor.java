@@ -1,6 +1,6 @@
 package ie.atu.exam;
 
-public class ShiftSupervisor extends  ShiftWorker{
+public class ShiftSupervisor extends ShiftWorker{
     private double annualSalary;
 
     public ShiftSupervisor() {
